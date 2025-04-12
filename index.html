@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Accessible Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Accessible Portfolio</h1>
+    <nav aria-label="Main Navigation">
+      <a href="#home">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h2>Welcome!</h2>
+      <p>Hi! I'm a web designer and developer focused on accessible and user-friendly design.</p>
+    </section>
+
+    <!-- About Preview -->
+    <section id="about-preview" class="section">
+      <h2>About Me</h2>
+      <p>I’m passionate about creating inclusive web experiences. With a background in design and coding, I build accessible, responsive websites for everyone.</p>
+      <a href="about.html" class="btn">Learn more →</a>
+    </section>
+
+    <!-- Projects Preview -->
+    <section id="projects-preview" class="section">
+      <h2>Featured Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <h3>Accessible Blog Template</h3>
+          <p>A blog layout built with semantic HTML and WCAG-compliant contrast ratios.</p>
+        </li>
+        <li>
+          <h3>Keyboard-Navigable Menu</h3>
+          <p>An interactive navigation menu designed with ARIA roles and full keyboard support.</p>
+        </li>
+      </ul>
+      <a href="projects.html" class="btn">View all projects →</a>
+    </section>
+
+    <!-- Contact Preview -->
+    <section id="contact-preview" class="section">
+      <h2>Get in Touch</h2>
+      <p>If you’re interested in collaborating or just want to say hi, I’d love to hear from you!</p>
+      <a href="contact.html" class="btn">Contact Me</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Accessible Portfolio</p>
+  </footer>
+</body>
+</html>
